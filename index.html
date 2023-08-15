@@ -16,15 +16,19 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {height: 10px;}
+    .attribution {color: black;}
   </style>
 </head>
 <body>
 
   <!-- Rating state start -->
-
+  
+  
+  <div id="background">
   <div class="main">
-    <div class="rating">
-      <img src="./images/icon-star.svg" alt="a icon of a star.">
+    <div class="white star">
+      <img src="./images/icon-star.svg" alt="a icon of a star." class="">
     </div>
     
     <h1 class="title">How did we do?</h1>
@@ -32,22 +36,35 @@
       to help us improve our offering!</p>
 
     <div class="ratings">
-     <div class="rating">1</div>
-     <div class="rating">2</div>
-     <div class="rating">3</div>
-     <div class="rating">4</div>
-     <div class="rating">5</div>
+     <div class="rating" id="one">
+      1
+    </div>
+     <div class="rating" id="two">
+      2
+     </div>
+     <div class="rating" id="three">
+      3
+     </div>
+     <div class="rating" id="four">
+      4
+     </div>
+     <div class="rating" id="five">
+      5
+     </div>
     </div>
 
-    <div id="submit-button">
-      <p id="submit">SUBMIT</p>
+    <div id="submit-button" class="button">
+      SUBMIT
     </div>
   </div>
+</div>
 
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">DAO</a>.
   </div>
+
+  <script src="./main.js"></script>
 </body>
 </html>
