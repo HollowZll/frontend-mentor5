@@ -21,31 +21,34 @@ button.addEventListener('click', function onClick() {
 // saves rating for next cart: 
 let rating = 0;
 function changeNumber (event) {
-    if (event === one) {
+    if (event.target.id === 'one') {
         rating = 1;
     }
-    else if (event === two) {
+    else if (event.target.id === 'two') {
         rating = 2;
     }
-    else if (event === three) {
+    else if (event.target.id === 'three') {
         rating = 3;
     }
-    else if (event === four) {
+    else if (event.target.id === 'four') {
         rating = 4;
     }
-    else if (event === five) {
+    else if (event.target.id === 'five') {
         rating = 5;
     }
 }
 document.querySelector('.ratings').onclick = function(event) {
+    console.log("event", event);
     changeNumber(event);
     let clicked = event.target.innerHTML;
     let color = event.target;
     color.style.backgroundColor = orange;
     color.style.color = white;
-    console.log(clicked);
+    console.log("esto es un rating", rating );
   };
   console.log(rating);
+
+
   // creates new card
 button.addEventListener('click', function onClick(event){
    changeNumber(event);

@@ -83,13 +83,13 @@ $very-blue:hsl(216, 12%, 8%);
 }
 
 .rating:hover {
-    background-color: $orange;
+    background-color: $light-grey;
     color: $white;
     cursor: pointer;
 }
 
 .rating:target {
-    background-color: $orange;
+    background-color: $light-grey;
 }
 
 .numbers {

@@ -71,13 +71,13 @@
 }
 
 .rating:hover {
-  background-color: hsl(25, 97%, 53%);
+  background-color: hsl(217, 12%, 63%);
   color: hsl(0, 0%, 100%);
   cursor: pointer;
 }
 
 .rating:target {
-  background-color: hsl(25, 97%, 53%);
+  background-color: hsl(217, 12%, 63%);
 }
 
 .numbers {
