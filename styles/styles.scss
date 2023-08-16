@@ -15,6 +15,10 @@ $very-blue:hsl(216, 12%, 8%);
     color: $white;
 }
 
+
+
+
+
 #background {
     display: flex;
     justify-content: center;
@@ -31,7 +35,6 @@ $very-blue:hsl(216, 12%, 8%);
     border-radius: 13px;
     margin: 30px;
     padding: 23px;
-    
 }
 
 .star {
@@ -82,6 +85,7 @@ $very-blue:hsl(216, 12%, 8%);
 .rating:hover {
     background-color: $orange;
     color: $white;
+    cursor: pointer;
 }
 
 .rating:target {
@@ -114,4 +118,42 @@ $very-blue:hsl(216, 12%, 8%);
 }
 
 
+
+
+
+// new cart 
+
+#thanks {
+  position: relative;
+  left: 65px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#thankYou {
+    height: 32px;
+    width: 168px;
+    background-color: $dark-blue;
+    color: $orange;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 56px;
+    margin-bottom: 25px;
+}
+
+#titulo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+#parafo {
+    text-align: center;
+    font-size: 14px;
+    color: $medium-grey;
+}
 

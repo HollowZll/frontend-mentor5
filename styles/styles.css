@@ -73,6 +73,7 @@
 .rating:hover {
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
+  cursor: pointer;
 }
 
 .rating:target {
@@ -100,4 +101,38 @@
   background-color: hsl(0, 0%, 100%);
   cursor: pointer;
   color: hsl(25, 97%, 53%);
+}
+
+#thanks {
+  position: relative;
+  left: 65px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#thankYou {
+  height: 32px;
+  width: 168px;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 56px;
+  margin-bottom: 25px;
+}
+
+#titulo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+#parafo {
+  text-align: center;
+  font-size: 14px;
+  color: hsl(216, 12%, 54%);
 }/*# sourceMappingURL=styles.css.map */
