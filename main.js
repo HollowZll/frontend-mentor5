@@ -19,9 +19,7 @@ button.addEventListener('click', function onClick() {
 })
 
 // saves rating for next cart: 
-
 let rating = 0;
-
 function changeNumber (event) {
     if (event === one) {
         rating = 1;
@@ -39,7 +37,6 @@ function changeNumber (event) {
         rating = 5;
     }
 }
-
 document.querySelector('.ratings').onclick = function(event) {
     changeNumber(event);
     let clicked = event.target.innerHTML;
@@ -48,13 +45,8 @@ document.querySelector('.ratings').onclick = function(event) {
     color.style.color = white;
     console.log(clicked);
   };
-
-
-  
   console.log(rating);
-
-  
-// creates new card
+  // creates new card
 button.addEventListener('click', function onClick(event){
    changeNumber(event);
    const myNode = document.getElementById('main');
